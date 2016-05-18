@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30ED09F1CECF97900994159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F30ED09E1CECF97900994159 /* main.m */; };
+		F30ED0A21CECF97900994159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F30ED0A11CECF97900994159 /* AppDelegate.m */; };
+		F30ED0A51CECF97900994159 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30ED0A41CECF97900994159 /* ViewController.m */; };
+		F30ED0A81CECF97A00994159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30ED0A61CECF97900994159 /* Main.storyboard */; };
+		F30ED0AA1CECF97A00994159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30ED0A91CECF97A00994159 /* Assets.xcassets */; };
+		F30ED0AD1CECF97A00994159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30ED0AB1CECF97A00994159 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F30ED09A1CECF97900994159 /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30ED09E1CECF97900994159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F30ED0A01CECF97900994159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F30ED0A11CECF97900994159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F30ED0A31CECF97900994159 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F30ED0A41CECF97900994159 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F30ED0A71CECF97900994159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F30ED0A91CECF97A00994159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30ED0AC1CECF97A00994159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F30ED0AE1CECF97A00994159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30ED0971CECF97900994159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30ED0911CECF97900994159 = {
+			isa = PBXGroup;
+			children = (
+				F30ED09C1CECF97900994159 /* Algorhythm */,
+				F30ED09B1CECF97900994159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F30ED09B1CECF97900994159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30ED09A1CECF97900994159 /* Algorhythm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30ED09C1CECF97900994159 /* Algorhythm */ = {
+			isa = PBXGroup;
+			children = (
+				F30ED0A01CECF97900994159 /* AppDelegate.h */,
+				F30ED0A11CECF97900994159 /* AppDelegate.m */,
+				F30ED0A31CECF97900994159 /* ViewController.h */,
+				F30ED0A41CECF97900994159 /* ViewController.m */,
+				F30ED0A61CECF97900994159 /* Main.storyboard */,
+				F30ED0A91CECF97A00994159 /* Assets.xcassets */,
+				F30ED0AB1CECF97A00994159 /* LaunchScreen.storyboard */,
+				F30ED0AE1CECF97A00994159 /* Info.plist */,
+				F30ED09D1CECF97900994159 /* Supporting Files */,
+			);
+			path = Algorhythm;
+			sourceTree = "<group>";
+		};
+		F30ED09D1CECF97900994159 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F30ED09E1CECF97900994159 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30ED0991CECF97900994159 /* Algorhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30ED0B11CECF97A00994159 /* Build configuration list for PBXNativeTarget "Algorhythm" */;
+			buildPhases = (
+				F30ED0961CECF97900994159 /* Sources */,
+				F30ED0971CECF97900994159 /* Frameworks */,
+				F30ED0981CECF97900994159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algorhythm;
+			productName = Algorhythm;
+			productReference = F30ED09A1CECF97900994159 /* Algorhythm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30ED0921CECF97900994159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jon Bachelor";
+				TargetAttributes = {
+					F30ED0991CECF97900994159 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KFLNENS369;
+					};
+				};
+			};
+			buildConfigurationList = F30ED0951CECF97900994159 /* Build configuration list for PBXProject "Algorhythm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30ED0911CECF97900994159;
+			productRefGroup = F30ED09B1CECF97900994159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30ED0991CECF97900994159 /* Algorhythm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30ED0981CECF97900994159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30ED0AD1CECF97A00994159 /* LaunchScreen.storyboard in Resources */,
+				F30ED0AA1CECF97A00994159 /* Assets.xcassets in Resources */,
+				F30ED0A81CECF97A00994159 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30ED0961CECF97900994159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30ED0A51CECF97900994159 /* ViewController.m in Sources */,
+				F30ED0A21CECF97900994159 /* AppDelegate.m in Sources */,
+				F30ED09F1CECF97900994159 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F30ED0A61CECF97900994159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30ED0A71CECF97900994159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F30ED0AB1CECF97A00994159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30ED0AC1CECF97A00994159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30ED0AF1CECF97A00994159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F30ED0B01CECF97A00994159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30ED0B21CECF97A00994159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonbachelor.Algorhythm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F30ED0B31CECF97A00994159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonbachelor.Algorhythm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30ED0951CECF97900994159 /* Build configuration list for PBXProject "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30ED0AF1CECF97A00994159 /* Debug */,
+				F30ED0B01CECF97A00994159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30ED0B11CECF97A00994159 /* Build configuration list for PBXNativeTarget "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30ED0B21CECF97A00994159 /* Debug */,
+				F30ED0B31CECF97A00994159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30ED0921CECF97900994159 /* Project object */;
+}
