@@ -6,13 +6,13 @@
 //  Copyright © 2016 Jon Bachelor. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PlaylistMasterViewController.h"
 
-@interface ViewController ()
+@interface PlaylistMasterViewController ()
 
 @end
 
-@implementation ViewController
+@implementation PlaylistMasterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,7 +25,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)buttonPressed {
-    self.view.backgroundColor = [UIColor orangeColor];
-}
+
+
 @end
