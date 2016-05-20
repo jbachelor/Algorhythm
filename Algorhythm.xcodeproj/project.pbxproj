@@ -14,6 +14,7 @@
 		F30ED0AA1CECF97A00994159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30ED0A91CECF97A00994159 /* Assets.xcassets */; };
 		F30ED0AD1CECF97A00994159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30ED0AB1CECF97A00994159 /* LaunchScreen.storyboard */; };
 		F30ED0B61CECFE7100994159 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30ED0B51CECFE7100994159 /* PlaylistDetailViewController.m */; };
+		F3A5016F1CEE0DE500CED5C8 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A5016E1CEE0DE500CED5C8 /* MusicLibrary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F30ED0AE1CECF97A00994159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30ED0B41CECFE7100994159 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
 		F30ED0B51CECFE7100994159 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
+		F3A5016D1CEE0DE500CED5C8 /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		F3A5016E1CEE0DE500CED5C8 /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				F30ED0B41CECFE7100994159 /* PlaylistDetailViewController.h */,
 				F30ED0B51CECFE7100994159 /* PlaylistDetailViewController.m */,
 				F30ED0A61CECF97900994159 /* Main.storyboard */,
+				F3A5016D1CEE0DE500CED5C8 /* MusicLibrary.h */,
+				F3A5016E1CEE0DE500CED5C8 /* MusicLibrary.m */,
 				F30ED0A91CECF97A00994159 /* Assets.xcassets */,
 				F30ED0AB1CECF97A00994159 /* LaunchScreen.storyboard */,
 				F30ED0AE1CECF97A00994159 /* Info.plist */,
@@ -159,6 +164,7 @@
 				F30ED0B61CECFE7100994159 /* PlaylistDetailViewController.m in Sources */,
 				F30ED0A21CECF97900994159 /* AppDelegate.m in Sources */,
 				F30ED09F1CECF97900994159 /* main.m in Sources */,
+				F3A5016F1CEE0DE500CED5C8 /* MusicLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				F30ED0B31CECF97A00994159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

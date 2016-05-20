@@ -17,20 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="q8d-j1-gFH">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="9QH-Wy-6f6"/>
+                                    <constraint firstAttribute="height" constant="200" id="ds0-ZQ-ZNW"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5C-3o-eo1">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <rect key="frame" x="137" y="392" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="opV-68-VC2" kind="push" id="Wsb-Fy-1aA"/>
+                                    <segue destination="opV-68-VC2" kind="push" identifier="showPlaylistDetail" id="Wsb-Fy-1aA"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="e5C-3o-eo1" firstAttribute="top" secondItem="q8d-j1-gFH" secondAttribute="bottom" constant="8" id="JY4-7b-7Z8"/>
+                            <constraint firstItem="q8d-j1-gFH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ozw-ch-ZhN"/>
+                            <constraint firstItem="q8d-j1-gFH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c01-VJ-26h"/>
                             <constraint firstItem="e5C-3o-eo1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c4w-Op-Zmr"/>
-                            <constraint firstItem="e5C-3o-eo1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gyt-DY-uxl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="dFA-n1-aQ7"/>
@@ -53,9 +61,24 @@
                     <view key="view" contentMode="scaleToFill" id="zZR-7y-CQL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You haven't pressed the button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b75-hc-CZO">
+                                <rect key="frame" x="41" y="272" width="238" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="b75-hc-CZO" firstAttribute="centerY" secondItem="zZR-7y-CQL" secondAttribute="centerY" id="BCE-lA-LZp"/>
+                            <constraint firstItem="b75-hc-CZO" firstAttribute="centerX" secondItem="zZR-7y-CQL" secondAttribute="centerX" id="GnH-Gt-CbY"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="Bt6-SR-e3u"/>
+                    <connections>
+                        <outlet property="buttonPressLabel" destination="b75-hc-CZO" id="u2k-KW-Hkf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s64-L9-8ve" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,4 +103,7 @@
             <point key="canvasLocation" x="162" y="406"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coffee" width="53" height="107"/>
+    </resources>
 </document>
